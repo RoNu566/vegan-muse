@@ -5,7 +5,7 @@
 }
 /* ----------------------------fondos de las paginas------------------------ */
 
-.html {
+html {
     background-image: url("../img/fondo5.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -59,7 +59,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 header img {
@@ -151,9 +150,7 @@ a:hover {
     grid-area: "main";
     justify-content: center;
 }
-.carousel-item  {
-    object-fit: contain;
-}
+
 .imagenes {
     display: flex;
     flex-direction: column;
@@ -195,7 +192,6 @@ a:hover {
 .img5 {
     width: 200px;
 }
-
 .img1:hover {
     transform: scale(1.5);
     }
@@ -204,7 +200,7 @@ a:hover {
     transform: scale(1.5);
     }
 
-.img3:hover {
+ .img3:hover {
     transform: scale(1.5);
     }
 
@@ -214,7 +210,8 @@ a:hover {
 
 .img5:hover {
     transform: scale(1.5);
-    } 
+    }
+
 /* --------------------------------------------texto--------------------------------------- */
 .informacion {
     padding: 1rem;
@@ -392,9 +389,9 @@ main section article caption {
     margin: 1rem;
 }
 
-main section table {
-    width:50% ;
-}
+/* main section table {
+    width: ;
+} */
 main section article table th {
     padding: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
