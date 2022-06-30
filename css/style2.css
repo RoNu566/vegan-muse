@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------------navegador--------------------------------  */
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 30px;
+    text-shadow: black;
+}
+
+#seccion-principal {
+    background-image: url("../img/fondo5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----------------------------titulo----------------------------------- */
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    padding: 1rem;
+    border: 1rem;
+    margin: 1rem;
+    text-shadow: 20px 20px 20px 20px black;
+    
+}
+
+.titulo:hover {
+    transform: scale(2);
+}
+
+/* --------------footer----------------------- */
+#footer {
+    grid-area: "footer";
+    padding: 1rem;
+    border: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(#e6e6fab9,#dda0ddb0,#d8bfd8bb,#72a0c1b9);
+    box-shadow: 1rem -1rem 2rem 1rem rgb(116, 110, 110);
+    margin-bottom: 1rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer a:hover {
+    transform: scale(2);
+}
+
+/* -----------------------------fondo cosmetica vegana------------------------ */
+#cosmetica {
+    background-image: url("../img/fondo3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+/* -----------------------------RECETAS------------------------ */
+#recetas-completas {
+    background-image: url("../img/fondito2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto_recetas{
+    text-align: justify;
+}
+
+#recetas-completas section article {
+    border-radius: 1rem;
+    background: linear-gradient(rgba(230, 230, 250, 0.623), rgba(240, 128, 128, 0.603)); 
+    margin: 5%;}
+
+/* -----------------------------Contactos------------------------ */
+
+#contacto {
+    background-image: url("../img/fondo5bis.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contacto {
+    background: radial-gradient(rgba(216, 147, 147, 0.521), rgba(86, 199, 236, 0.555), rgba(116, 116, 138, 0.568)) ;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 2rem;
+    text-align: justify;
+}
+
+/* -----------------------------Productos veganos de supermercados------------------------ */
+
+#seccion_productos{
+    background-image: url("../img/fondoproducto.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2% 5% 15% 5%;
+    border-radius:  1rem;
+}
