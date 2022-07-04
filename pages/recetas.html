@@ -1,63 +1,135 @@
 <!DOCTYPE html>
-<html class="html-recetas" lang="es">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Dancing+Script&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&family=Splash&family=The+Nautigal&display=swap"
+        rel="stylesheet">
     <title>Recetas</title>
 </head>
-<body>
+
+<body id="Recipes">
     <!-------------------header y nav---------------------->
     <header id="header">
-        <a href="../index.html"><img src="../img/logo.png" alt="logo de vegan mus"></a>
-        <nav class="navegador">
-            <ul class="lista">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./recetas.html" style="color:rgb(216, 23, 135);">Recetas</a></li>
-                <li><a href="./cosmetica.html">Cosmetica Vegana</a></li>
-                <li><a href="./productos.html">Productos Veganos de Supermercado</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="../img/logo.png" class=weigh-100 height="100"
+                        alt="logo de vegan mus"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cosmetica.html">Cosmetica Vegana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos Veganos de Supermercado</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./recetas.html" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color:rgb(148, 9, 90);">
+                                Recetas</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#saladas">Saladas</a></li>
+                                <li><a class="dropdown-item" href="#dulces">Dulces</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!------------------seccion recetas---------------------->
     <main id="recetas-completas">
-        <section>
-            <h1 class="recetas">Recetas</h1>
+        <section class="text-center m-1 p-1">
+            <h1 class="tit">Vegan Muse</h1>
+            <h2 class="sub-tit">Recetas</h2>
         </section>
         <section>
             <article>
-                <div class="receta">
-                <h2 class="tittofu">Tofu Teriyaki</h2>
-                <p class="descripcion-receta">
-                    Caliente un poco de aceite vegetal en una cacerola pequeña o mediana y agregue el ajo y el jengibre
-                    finamente picados. Cocine durante 2-3 minutos o justo antes de que el ajo comience a dorarse.
-                    Añadir el mirin, el sake y la salsa de soja. Llevar a fuego lento y cocinar la salsa durante unos 10
-                    minutos para permitir que el alcohol se evapore.
-                    Agrega la maicena diluida en un poco de agua y sigue cocinando hasta que espese. No debería tomar
-                    más de dos
-                    minutos.
-                </p>
-                <img class="imgtofu" src="../img/tofu.jpg" alt="tofu teriyaki">
-            </div>
-            
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/VC6wJThPJk4"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </article>
-        </section>
+                <!------------------seccion recetas---------------------->
+                <section id="saladas">
+                    <h2 class="tittofu fs-2 text-center my-5">Tofu Teriyaki</h2>
+                    <article class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex align-items-center">
+                                <p class="texto_recetas p-5">
+                                    Caliente un poco de aceite vegetal en una cacerola pequeña o mediana y agregue
+                                    el ajo y el jengibre
+                                    finamente picados. Cocine durante 2-3 minutos o justo antes de que el ajo
+                                    comience a dorarse.
+                                    Añadir el mirin, el sake y la salsa de soja. Llevar a fuego lento y cocinar la
+                                    salsa durante unos 10
+                                    minutos para permitir que el alcohol se evapore.
+                                    Agrega la maicena diluida en un poco de agua y sigue cocinando hasta que espese.
+                                    No debería tomar
+                                    más de dos
+                                    minutos.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6 d-flex justify-content-center">
+                                <img class="w-75 p-3" src="../img/tofu.jpg" alt="tofu teriyaki">
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section id="dulces">
+                    <h2 class="tittofu fs-2 text-center my-5">Brownies Veganos</h2>
+                    <article class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex align-items-center">
+                                <p class="texto_recetas p-5">
+                                    Para empezar, preparar el puré de boniato y dejar que se enfríe. A continuación,
+                                    tamizar la harina, el cacao, la levadura química y la sal en un cuenco.
+                                    Incorporar las nueces pecanas, el chocolate rallado y el azúcar. En otro cuenco,
+                                    mezclar el aceite, el sirope de agave, la vainilla, la leche de soja y el puré
+                                    de boniato con ayuda de un batidor de mano. Combinar ambas mezclas y verter la
+                                    masa, que será relativamente líquida, en un molde rectangular (20x30 cm).
+                                    Hornear la masa durante 30-35 minutos a 180 °C con ambas resistencias
+                                    encendidas. Sabrá que la masa está cocida cuando al hacer un poco de presión
+                                    sobre la superficie, esta recupere su forma inicial. El brownie deberá quedar
+                                    algo húmedo por dentro. Dejar que se enfríe dentro del molde, dividirlo en
+                                    porciones y servir.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6 d-flex justify-content-center">
+                                <img class="w-75 p-3" src="../img/brownies.PNG" alt="tofu teriyaki">
+                            </div>
+                        </div>
+                    </article>
+                </section>
     </main>
     <!-------------footer----------->
     <footer id="footer">
-        <div>
-        <a href="./pages/contacto.html"><i class="bi-chat-fill"></i></a>
-        <a href="http://facebook.com" target="_blank"><i class="bi-facebook"></i></a>
-        <a href="http://twitter.com" target="_blank"><i class="bi-twitter"></i></a>
-        <a href="http://instagram.com" target="_blank"><i class="bi-instagram"></i></a>
+        <div class="container-md">
+            <p class="fs-4">Seguinos en nuestras Redes Sociales</p>
+            <a href="http://facebook.com" target="_blank"><i class="bi-facebook"></i></a>
+            <a href="http://twitter.com" target="_blank"><i class="bi-twitter"></i></a>
+            <a href="http://instagram.com" target="_blank"><i class="bi-instagram"></i></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
