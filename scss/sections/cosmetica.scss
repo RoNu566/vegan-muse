@@ -1,0 +1,16 @@
+.tit, .sub-tit{
+    font-family: 'Splash', scursive;
+    font-weight: 500; 
+    transition: 300ms;
+}
+.sub-tit:hover {
+    transform: scale(1.3);
+}
+.cosmetica {
+    background-color: $color-lpink;
+    padding: 5%;
+    margin: 5%;
+    border-radius: $borderradius2;
+    font-family: 'Shadows Into Light', cursive;
+}
+

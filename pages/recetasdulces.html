@@ -14,10 +14,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Dancing+Script&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&family=Splash&family=The+Nautigal&display=swap"
         rel="stylesheet">
-    <title>Contacto</title>
+    <title>Recetas</title>
 </head>
 
-<body id="contacto">
+<body id="Recipes">
     <!-------------------header y nav---------------------->
     <header id="header">
         <nav class="navbar navbar-expand-md">
@@ -42,7 +42,8 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="./recetas.html" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color:rgb(148, 9, 90);">
                                 Recetas</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="./recetasaladas.html">Saladas</a></li>
@@ -50,41 +51,49 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html" style="color:rgb(148, 9, 90)" ;>Contacto</a>
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!----------------------------contactos---------------------------- -->
-    <main id="contacto1">
+    <!------------------seccion recetas---------------------->
+    <main id="recetas-completas">
         <section class="text-center m-1 p-1">
             <h1 class="tit">Vegan Muse</h1>
-            <h2 class="sub-tit">Contacto</h2>
+            <h2 class="sub-tit">Recetas Dulces</h2>
         </section>
         <section>
-            <article class="contacto">
-                <h3 class="mensaje-comentario">Dejanos tu mensaje o comentarios</h3>
-                <form>
-                    <label for="nombre-apellido">Nombre y Apellido:</label><br>
-                    <input type="text" name="nombre-apellido" placeholder="Escribi tu nombre"><br>
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" placeholder="Direccion de correo electrónico"><br>
-                    <label for="telefono">Telefono</label><br>
-                    <input type="tel" name="telefono" placeholder="Teléfono"><br>
-                    <label for="fecha-de-nacimiento">Fecha de Nacimiento</label><br>
-                    <input type="date" name="fecha-de-nacimiento" placeholder="fecha de nacimiento"><br>
-                    <label for="comentarios">Comentarios</label><br>
-                    <textarea name="comentarios" placeholder="Dejanos tu mensaje...." cols="33"
-                        rows="10"></textarea><br>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Reiniciar formulario">
-                </form>
-            </article>
-        </section>
+            <article>
+                <!------------------seccion recetas---------------------->
+                <section id="dulces">
+                    <h3 class="tittofu fs-2 text-center my-5">Brownies Veganos</h3>
+                    <article class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex align-items-center">
+                                <p class="texto_recetas p-5">
+                                    Para empezar, preparar el puré de boniato y dejar que se enfríe. A continuación,
+                                    tamizar la harina, el cacao, la levadura química y la sal en un cuenco.
+                                    Incorporar las nueces pecanas, el chocolate rallado y el azúcar. En otro cuenco,
+                                    mezclar el aceite, el sirope de agave, la vainilla, la leche de soja y el puré
+                                    de boniato con ayuda de un batidor de mano. Combinar ambas mezclas y verter la
+                                    masa, que será relativamente líquida, en un molde rectangular (20x30 cm).
+                                    Hornear la masa durante 30-35 minutos a 180 °C con ambas resistencias
+                                    encendidas. Sabrá que la masa está cocida cuando al hacer un poco de presión
+                                    sobre la superficie, esta recupere su forma inicial. El brownie deberá quedar
+                                    algo húmedo por dentro. Dejar que se enfríe dentro del molde, dividirlo en
+                                    porciones y servir.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6 d-flex justify-content-center">
+                                <img class="w-75 p-3" src="../img/brownies.PNG" alt="tofu teriyaki">
+                            </div>
+                        </div>
+                    </article>
+                </section>
     </main>
-    <!----------------------------footer----------------------->
+    <!-------------footer----------->
     <footer id="footer">
         <div class="container-md">
             <p class="fs-4">Seguinos en nuestras Redes Sociales</p>

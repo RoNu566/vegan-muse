@@ -1,0 +1,13 @@
+#productos {
+    grid-area: "main";
+    justify-content: center;
+
+    & .article-producto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 3rem ;
+    }
+}
+

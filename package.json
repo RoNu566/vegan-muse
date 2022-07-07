@@ -1,0 +1,19 @@
+{
+  "name": "veganmuse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoNu566/vegan-muse.git"
+  },
+  "author": "Rocio Nunez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoNu566/vegan-muse/issues"
+  },
+  "homepage": "https://github.com/RoNu566/vegan-muse#readme"
+}

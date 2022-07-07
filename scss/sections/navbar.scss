@@ -1,0 +1,37 @@
+header {
+    grid-area: "header";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+    & nav {
+        display: flex;
+        justify-items: space-around;
+        flex-direction: row;
+        align-content: flex-end;
+        margin-left: 1vw;
+        margin-top: 2vh;
+
+        & ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            justify-items: space-around;
+
+            & li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1rem;
+                list-style-type: none;
+                font-size: 1.5rem;
+                font-style: italic;
+                font-family: 'Permanent Marker', cursive;
+                text-shadow: black;
+            }
+        
+        }
+    }
+}
