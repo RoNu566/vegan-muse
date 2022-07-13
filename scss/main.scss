@@ -1,6 +1,10 @@
+
 @import "./general/_reset";
+
 @import "./general/_variables";
-@import "./general/mediaqueries";
+@import "./general/_mediaqueries";
+@import "./general/_mixins";
+@import "./general/maps.scss";
 
 
 @import "./componentes/carrusel";

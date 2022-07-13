@@ -5,15 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vegan muse es la inspiración vegana para aquellos que desear saber mas sobre el veganismo">
+    <meta name="keywords" content="veganos, veganismo, que es el veganismo">
+    <meta name="owner" content="Rocio Nuñez">
+    <meta name="author" content="Rocio Nuñez">
+    <link rel="shortcut icon" href="./img/favicon.jpeg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Dancing+Script&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&family=Splash&family=The+Nautigal&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+   
     <title>Bienvenidos a Vegan Muse</title>
 </head>
 
@@ -33,7 +39,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html"
-                                style="color:rgb(216, 23, 135);">Inicio</a>
+                                style="color:#32a871;">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/cosmetica.html">Cosmetica Vegana</a>
@@ -42,7 +48,7 @@
                             <a class="nav-link" href="./pages/productos.html">Productos Veganos de Supermercado</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./pages/recetas.html" id="navbarDropdownMenuLink"
+                            <a class="nav-link dropdown-toggle" href="./pages/recetasaladas.html" id="navbarDropdownMenuLink"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Recetas</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -58,7 +64,7 @@
             </div>
         </nav>
     </header>
-    <!-- ------------- titulo- imagenes y articulos de info---------- -->
+    <!-- ------------- titulo y carousel---------- -->
     <main id="seccion-principal">
         <section>
             <h1 class="titulo">Vegan Muse</h1>
@@ -67,31 +73,34 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./img/baby-bear.jpg" class="d-block w-100" alt="cria de oso marron tomando agua">
+                        <img src="./img/baby-bear.jpg" class="d-block w-100" alt="cria de oso pardo tomando agua">
                     </div>
                     <div class="carousel-item">
                         <img src="./img/baby-hedgehog.jpg" class="d-block w-100" alt="bebe puercoespin sobre pasto">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/cow.jpg" class="d-block w-100" alt="vaca con su cria">
+                        <img src="./img/cow.jpg" class="d-block w-100" alt="vaca con su cria en un campo">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/cute-rabbit.jpg" class="d-block w-100" alt="conejo sobre pasto">
+                        <img src="./img/cute-rabbit.jpg" class="d-block w-100" alt="conejo pardo sobre pasto">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/dog-cat.jpg" class="d-block w-100" alt="un perro y un gato">
+                        <img src="./img/dog-cat.jpg" class="d-block w-100" alt="un perro y un gato mirando al horizonte">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/little-chicks.jpg" class="d-block w-100" alt="pollitos pequeños">
+                        <img src="./img/little-chicks.jpg" class="d-block w-100" alt="pollitos pequeños en un criadero">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/elephant.jpg" class="d-block w-100" alt="manada de elefantes">
+                        <img src="./img/elephants.jpg" class="d-block w-100" alt="manada de elefantes jugando en un rio">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/fish.jpg" class="d-block w-100" alt="peces nadando">
+                        <img src="./img/fish.jpg" class="d-block w-100" alt="peces nadando en el oceano">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/lamb.jpg" class="d-block w-100" alt="pequeño cordero">
+                        <img src="./img/lamb.jpg" class="d-block w-100" alt="pequeño cordero blanco parado en un pastizal">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/bebevaca.jpg" class="d-block w-100" alt="bebe humano acariciando a un ternero">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -106,11 +115,12 @@
                 </button>
             </div>
         </section>
+        <!--------------------------------articulos de info----------------------->
         <section class="informacion">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button fs-2" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button letrasubtitulos" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             ¿Qué es el veganismo?
                         </button>
@@ -118,7 +128,7 @@
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p class="fs-4">
+                            <p class="letratextos">
                                 El veganismo tiene una raíz ética intachable. Es básicamente el motor imparable de un
                                 movimiento
                                 que busca un futuro libre de explotación animal, donde los animales dejen de ser
@@ -131,7 +141,7 @@
                                 especie
                                 determinada.
                             </p>
-                            <p class="fs-4">
+                            <p class="letratextos">
                                 Si contamos también los peces que mueren por consumo de pescado y las abejas que lo
                                 hacen por el
                                 consumo de miel, los resultados a los que nos enfrentaríamos son casi imposibles de
@@ -143,9 +153,8 @@
                                 siquiera a vivir 1/4 parte de su vida. Todo dependerá, una vez más, de la especie a la
                                 que
                                 pertenezcan y de la cantidad de dinero que puedan generar a la empresa.
-
                             </p>
-                            <p class="fs-4">
+                            <p class="letratextos">
                                 Ya antes de nacer, los animales son condenados a una vida de tortura y explotación con
                                 fecha de
                                 muerte programada. Los cerdos, las vacas, los terneros, los toros…. Todos ellos son
@@ -160,7 +169,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed letrasubtitulos" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             ¿Por qué ser vegano? Por los animales.
                         </button>
@@ -168,7 +177,7 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p class="fs-4">
+                            <p class="letratextos">
                                 El veganismo tiene una raíz ética intachable. Es básicamente el motor imparable de un
                                 movimiento
                                 que busca un futuro libre de explotación animal, donde los animales dejen de ser
@@ -181,7 +190,7 @@
                                 especie
                                 determinada.
                             </p>
-                            <p class="fs-4">
+                            <p class="letratextos">
                                 Si contamos también los peces que mueren por consumo de pescado y las abejas que lo
                                 hacen por el
                                 consumo de miel, los resultados a los que nos enfrentaríamos son casi imposibles de
@@ -195,7 +204,7 @@
                                 pertenezcan y de la cantidad de dinero que puedan generar a la empresa.
 
                             </p>
-                            <p class="fs-4">
+                            <p class="letratextos">
                                 Ya antes de nacer, los animales son condenados a una vida de tortura y explotación con
                                 fecha de
                                 muerte programada. Los cerdos, las vacas, los terneros, los toros…. Todos ellos son
@@ -209,7 +218,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed letrasubtitulos" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 El consumo de carne y el medioambiente
                             </button>
@@ -217,7 +226,7 @@
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p class="fs-4">
+                                <p class="letratextos">
                                     Resulta ser que rechazar el consumo de animales también tiene un aporte positivo
                                     sobre el
                                     planeta. Aunque cueste creerlo, se sabe que la industria ganadera es una de las
@@ -232,7 +241,7 @@
                                     litros de
                                     agua para regar y alimentar.
                                 </p>
-                                <p class="fs-4">
+                                <p class="letratextos">
                                     La Organización de las Naciones Unidas para la Alimentación y la Agricultura ha
                                     dicho que la
                                     industria ganadera produce más gases de efecto invernadero que toda la industria del
@@ -252,7 +261,7 @@
                                     utilizando
                                     menos agua, menos tierra y contaminando menos el entorno.
                                 </p>
-                                <p class="fs-4">
+                                <p class="letratextos">
                                     *Recordemos que día a día mueren al rededor de los 30.000 niños por enfermedades
                                     relacionadas con el agua. *Datos proporcionados por el documental Empatía. Según los
                                     datos que

@@ -1,0 +1,16 @@
+$fondos:(
+    light: radial-gradient(rgba(255, 243, 110, 0.747) 0%, rgba(30,204,214,1) 45.6%, rgba(5,54,154,1)),
+    mid: linear-gradient(rgba(153,234,162, 1),rgba(217,252,186, 1)),
+    strong: linear-gradient(rgba(68,196,175, 1),rgba(18,103,138, 1)),
+);
+
+.gradient1 {
+    background: map-get($fondos, light);
+}
+.gradient2 {
+    background: map-get($fondos, mid);
+}
+.gradient3 {
+    background: map-get($fondos, strong);
+}
+

@@ -1,0 +1,26 @@
+@mixin fontsize($size, $weigth) { 
+font-size: $size;
+font-weight: $weigth;
+}
+ .letratextos {
+    font-family: 'Arima', cursive;
+    @include fontsize (1.25rem, 400);
+ }
+.letrasubtitulos {
+    font-family: 'Permanent Marker', cursive;
+    @include fontsize(1.5rem,400);
+}
+ .letratitulos {
+    font-family: 'Splash', cursive;
+    @include fontsize (3rem, 300);
+ }
+@mixin fondo {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+@mixin hover {
+    transform: scale(1.3);
+    color: goldenrod;
+}
