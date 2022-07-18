@@ -3,11 +3,7 @@
     @include fondo;
    
     & #contacto1{
-        background: map-get($fondos, mid);
-        border: solid;
-        border-radius: 1rem;
-        padding: 2rem;
-        margin: 2rem;
+       margin: 0.5;
        }
         & .contacto {
         display: flex;
@@ -17,7 +13,7 @@
         padding: 5%;
         margin: 0%;
         border-radius: $borderradius2;
-        text-align: justify;
+        text-align: center;
 
         & h3 {
             font-family: $font-family1;
@@ -27,7 +23,9 @@
 
         & form{
             @extend h3;
-            padding: 1rem;
+            padding: 0.5rem;
+            align-items: center;
+            justify-content: center;
         }
     }
 }

@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+    #contacto1 {
+        background: linear-gradient(rgba(153, 234, 163, 0.603),rgba(217, 252, 186, 0.568));
+        border: solid;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+       }
+}
+@media screen and (min-width: 768px) {
+    #productos {
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(153, 234, 163, 0.603),rgba(217, 252, 186, 0.568));
+        border: solid;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+       }
+}
+@media screen and (min-width: 960px) {
+    .article-producto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem ;
+    }
+}
