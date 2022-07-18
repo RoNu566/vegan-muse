@@ -5,6 +5,35 @@
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 768px) {
+  #contacto1 {
+    background: linear-gradient(rgba(153, 234, 163, 0.603), rgba(217, 252, 186, 0.568));
+    border: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  #productos {
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(153, 234, 163, 0.603), rgba(217, 252, 186, 0.568));
+    border: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .article-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+}
 .letratextos {
   font-family: "Arima", cursive;
   font-size: 1.25rem;
@@ -226,16 +255,13 @@ header nav ul li {
 #productos {
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(153, 234, 163, 0.603), rgba(217, 252, 186, 0.568));
-  border: solid;
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 1rem;
+  margin: 0.5;
+  padding: 0.5;
 }
 #productos .article-producto {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
 }
@@ -253,11 +279,7 @@ header nav ul li {
   background-size: cover;
 }
 #contacto #contacto1 {
-  background: linear-gradient(rgba(153, 234, 163, 0.603), rgba(217, 252, 186, 0.568));
-  border: solid;
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 2rem;
+  margin: 0.5;
 }
 #contacto .contacto {
   display: flex;
@@ -267,7 +289,7 @@ header nav ul li {
   padding: 5%;
   margin: 0%;
   border-radius: 2rem;
-  text-align: justify;
+  text-align: center;
 }
 #contacto .contacto h3, #contacto .contacto form {
   font-family: "Arima", cursive;
@@ -275,7 +297,9 @@ header nav ul li {
   font-weight: 400;
 }
 #contacto .contacto form {
-  padding: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
