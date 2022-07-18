@@ -25,13 +25,31 @@
     margin: 1rem;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 980px) {
   .article-producto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  #super {
+    background-image: url("../img/roses.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  #contacto {
+    background-image: url("../img/fondo5bis.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 .letratextos {
@@ -245,11 +263,7 @@ header nav ul li {
 }
 
 #super {
-  background-image: url("../img/roses.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: rgba(236, 236, 105, 0.753);
 }
 
 #productos {
@@ -272,11 +286,7 @@ header nav ul li {
 }
 
 #contacto {
-  background-image: url("../img/fondo5bis.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: bisque;
 }
 #contacto #contacto1 {
   margin: 0.5;

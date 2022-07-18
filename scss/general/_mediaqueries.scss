@@ -18,7 +18,7 @@
         margin: 1rem;
        }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 980px) {
     .article-producto {
         display: flex;
         flex-direction: column;
@@ -27,3 +27,21 @@
         padding-bottom: 3rem ;
     }
 }
+@media screen and (min-width: 768px) {
+    #super {
+        background-image: url("../img/roses.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    }
+    @media screen and (min-width: 768px) {
+        #contacto {
+            background-image: url("../img/fondo5bis.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        }
