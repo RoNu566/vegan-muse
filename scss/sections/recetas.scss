@@ -1,8 +1,31 @@
-.texto_recetas {
-font-family: $font-family1;
-font-size: large;
-background-color: $color4;
+#recipes {
+   background-image: url("../img/delicate-flower.jpg");
+   @include fondo; 
 }
-h3 {
-   font-family: $font-family5;
+#receta1{
+   padding: 2rem;
+   margin: 2rem;
+   border-radius: 1rem;
+   background: map-get($fondos, mid);
+   border: solid;
+}
+#receta2{
+   padding: 2rem;
+   margin: 2rem;
+   border-radius: 1rem;
+   background: map-get($fondos, strong);
+   border: solid;
+}
+#receta3{
+   padding: 2rem;
+   margin: 2rem;
+   border-radius: 1rem;
+   background: map-get($fondos, light);
+   border: solid;
+}
+.ingredientes{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }

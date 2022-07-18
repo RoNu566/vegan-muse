@@ -6,11 +6,17 @@
 .sub-tit:hover {
     @include hover;
 }
+#cosmetica-vegana {
+    background-image: url("../img/flowers.jpg");
+    @include fondo;
+}
 .cosmetica {
-    background-color: $color4;
+    background: map-get($fondos, mid);
     padding: 5%;
     margin: 5%;
     border-radius: $borderradius2;
+    border: solid;
     font-family: 'Shadows Into Light', cursive;
 }
+
 

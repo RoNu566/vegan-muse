@@ -22,5 +22,10 @@
     border-radius: $borderradius1;
     margin: 1rem;
     background: map-get($fondos, strong);
+    border: solid;
     text-align: center;
+}
+.body{
+    background-image: url("../img/flowers-tree.jpg");
+    @include fondo;
 }

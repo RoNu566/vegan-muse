@@ -1,6 +1,15 @@
+#super {
+    background-image: url("../img/roses.jpg");
+    @include fondo;  
+}
 #productos {
-    grid-area: "main";
     justify-content: center;
+    align-items: center;
+    background: map-get($fondos, mid);
+    border: solid;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
 
     & .article-producto {
         display: flex;

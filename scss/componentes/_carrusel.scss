@@ -1,24 +1,23 @@
 
-
 #carouselExampleControls {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: black;
         &.carousel-inner{
             display: flex;
             justify-content: center;
             align-items: center;
     }
             &.carousel-item{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend .carousel-inner;
+                
     }
             &img {
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                max-height: fit-content;
+                align-items: center; 
+                border-color: black;
             }
 }
 
